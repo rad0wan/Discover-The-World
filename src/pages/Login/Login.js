@@ -1,8 +1,9 @@
 import React, { useRef } from 'react';
 import { Button, Form } from 'react-bootstrap';
-import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { useSignInWithEmailAndPassword, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../firebase.init';
+import { FcGoogle } from 'react-icons/fc';
 
 
 const Login = () => {
@@ -24,6 +25,8 @@ const Login = () => {
         error,
     ] = useSignInWithEmailAndPassword(auth);
 
+    const [signInWithGoogle] = useSignInWithGoogle(auth);
+
     if (user) {
         navigate(from, { replace: true });
     }
@@ -35,6 +38,10 @@ const Login = () => {
         const password = passwordRef.current.value;
 
         signInWithEmailAndPassword(email, password);
+    }
+
+    const handleGoogle = () => {
+        signInWithGoogle()
     }
 
 
@@ -59,7 +66,7 @@ const Login = () => {
                     Sign In
                 </Button>
                 <p className='text-center'>
-                    Sign with 
+                    Sign with <FcGoogle onClick={handleGoogle} style={{ cursor: 'pointer' }} size={50}></FcGoogle>
                 </p>
             </Form>
 

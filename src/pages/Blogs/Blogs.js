@@ -19,12 +19,12 @@ const Blogs = () => {
                 </p>
             </article>
             <article>
-                <h3>2. Why are you using firebase? What other options do you have to implement authentication?</h3>
-                <p>Google Firebase অনেক বৈশিষ্ট্য offer করে যা এটিকে web and mobile app জন্য go-to backend development too টুল হিসাবে পিচ করে। এটি development workload and time হ্রাস করে। এবং এটি একটি perfect prototyping টুল। Firebase simple, lightweight, friendly, and industrially recognized। Other options to authenticate can be through cards, retina scans, voice recognition, and fingerprints.</p>
+                <h3 className='text-success'>2. Why are you using firebase? What other options do you have to implement authentication?</h3>
+                <p style={{ color: 'gray' }}>Google Firebase অনেক বৈশিষ্ট্য offer করে যা এটিকে web and mobile app জন্য go-to backend development too টুল হিসাবে পিচ করে। এটি development workload and time হ্রাস করে। এবং এটি একটি perfect prototyping টুল। Firebase simple, lightweight, friendly, and industrially recognized। Other options to authenticate can be through cards, retina scans, voice recognition, and fingerprints.</p>
             </article>
             <article>
-                <h3>3. What other services does firebase provide other than authentication?</h3>
-                <p>There are many services Firebase provides them are: Cloud Firestore,
+                <h3 className='text-success'>3. What other services does firebase provide other than authentication?</h3>
+                <p style={{ color: 'gray' }}>There are many services Firebase provides them are: Cloud Firestore,
                     Cloud Functions,
                     Hosting,
                     Cloud Storage,
