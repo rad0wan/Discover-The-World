@@ -13,7 +13,7 @@ const Service = ({ service }) => {
 
     return (
         <Col>
-            <Card>
+            <Card className='text-center'>
                 <Card.Img variant="top" src={img} />
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>
@@ -21,12 +21,10 @@ const Service = ({ service }) => {
                         {details}
                     </Card.Text>
                     <Card.Text>
-                        Price: {price}
+                        Price: <span style={{ color: 'orange', fontSize: '22px' }}>${price}</span>
                     </Card.Text>
                 </Card.Body>
-                <Card.Footer>
-                    <button onClick={handleCheckOut} className='btn btn-success'>Check Out</button>
-                </Card.Footer>
+                <button onClick={handleCheckOut} className='btn btn-success w-50 mx-auto mb-3'>Check Out</button>
             </Card>
         </Col>
     );

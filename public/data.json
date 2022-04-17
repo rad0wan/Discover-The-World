@@ -1,44 +1,43 @@
 [
     {
-        "img": "https://www.worldtravelguide.net/wp-content/uploads/2021/10/shu-CostaRica-Arenal_101362975-1440x823-1.jpg",
+        "img": "https://lp-cms-production.imgix.net/features/2016/07/GettyRF_121536603-2d1aaf2698b4.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850&q=75&dpr=1",
         "id": "625b9e8d5f64da54e99fb3a8",
-        "details": "I was a bit skeptical switching from PC to Mac after all of these years but I couldn't be happier. This MacBook Air is so sleek and smooth. Though getting used to a new OS may take a little time, it was well worth spending a little extra money to get such a solid computer. ",
-        "name": "Workman Brock",
-        "price": 5000
+        "details": "The panoramic views from the top of Indonesia's second-highest volcano, which rises to 3726m, delights even the most adventurous hiker. The sight of the 6 km-wide silky-blue crater ",
+        "name": "Gunung Rinjani, Lombok ",
+        "price": 1249
     },
     {
-        "img": "https://www.worldtravelguide.net/wp-content/uploads/2021/10/shu-CostaRica-Arenal_101362975-1440x823-1.jpg",
+        "img": "https://lp-cms-production.imgix.net/image_browser/ice-climbing-adventure-EWBPM6.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850&q=75&dpr=1",
         "id": "625b9e8d170d21d3b7505d42",
-        "details": "I was a bit skeptical switching from PC to Mac after all of these years but I couldn't be happier. This MacBook Air is so sleek and smooth. Though getting used to a new OS may take a little time, it was well worth spending a little extra money to get such a solid computer. ",
-        "name": "Kathie Nicholson",
-        "price": 5000
+        "details": "Antarctica remains the one continent where you can’t just take a cheap flight, turn up and do your own thing. Unless you skipper your own yacht to the ice  ",
+        "name": " Visit Antarctica",
+        "price": 1390
     },
     {
-        "img": "https://www.worldtravelguide.net/wp-content/uploads/2021/10/shu-CostaRica-Arenal_101362975-1440x823-1.jpg",
-        "id": "625b9e8d25ae1974606ceae9",
-        "details": "I was a bit skeptical switching from PC to Mac after all of these years but I couldn't be happier. This MacBook Air is so sleek and smooth. Though getting used to a new OS may take a little time, it was well worth spending a little extra money to get such a solid computer. ",
-        "name": "Traci Beasley",
-        "price": 5000
+        "img": "https://lp-cms-production.imgix.net/2022-04/US%20West%20Virginia%20New%20River%20Richard%20I'Anson%20GettyImages-148683303%20RFE.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850",
+        "details": "The New River and Gauley River are legendary in whitewater rafting circles for their boiling, churning Class IV and Class V rapids, with numerous places to put-in within easy striking ",
+        "name": "West Virginia Tour",
+        "price": 790
     },
     {
-        "img": "https://www.worldtravelguide.net/wp-content/uploads/2021/10/shu-CostaRica-Arenal_101362975-1440x823-1.jpg",
+        "img": "https://lp-cms-production.imgix.net/features/2019/02/hiking-wadi-rum-jordan-c7fd1e89475a.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850&q=75&dpr=1",
         "id": "625b9e8d45bd2a38c80250eb",
-        "details": "I was a bit skeptical switching from PC to Mac after all of these years but I couldn't be happier. This MacBook Air is so sleek and smooth. Though getting used to a new OS may take a little time, it was well worth spending a little extra money to get such a solid computer. ",
-        "name": "Gamble Berger",
-        "price": 5000
+        "details": "A small country that's big on hospitality, ancient history and culture, and numerous Unesco World Heritage sites, Jordan offers endless opportunities for adventure. ",
+        "name": "Travel to Jordan",
+        "price": 1550
     },
     {
-        "img": "https://www.worldtravelguide.net/wp-content/uploads/2021/10/shu-CostaRica-Arenal_101362975-1440x823-1.jpg",
+        "img": "https://lp-cms-production.imgix.net/2022-03/shutterstockRF_776098807.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850&q=75&dpr=1",
         "id": "625b9e8dd890e64fd050f1ea",
-        "details": "I was a bit skeptical switching from PC to Mac after all of these years but I couldn't be happier. This MacBook Air is so sleek and smooth. Though getting used to a new OS may take a little time, it was well worth spending a little extra money to get such a solid computer. ",
-        "name": "Dorothy Barber",
-        "price": 5000
+        "details": "Dotted with water lilies and surrounded by manicured parks, pretty Hévíz boasts the world’s largest biologically active, natural medicinal lake. Its on-site spa complex is convenient for ",
+        "name": " Hévíz Lake Nature",
+        "price": 1990
     },
     {
-        "img": "https://www.worldtravelguide.net/wp-content/uploads/2021/10/shu-CostaRica-Arenal_101362975-1440x823-1.jpg",
+        "img": "https://lp-cms-production.imgix.net/2022-03/GettyRF_531114869.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850&q=75&dpr=1",
         "id": "625b9e8dcc885b89a6a1a1e9",
-        "details": "I was a bit skeptical switching from PC to Mac after all of these years but I couldn't be happier. This MacBook Air is so sleek and smooth. Though getting used to a new OS may take a little time, it was well worth spending a little extra money to get such a solid computer. ",
-        "name": "Estrada Hays",
-        "price": 5000
+        "details": "Located just off Bali's northwestern tip, Pulau Menjangan (Deer Island) is one of Indonesia's most accessible locations for both experienced divers and adventurous snorkelling fans. ",
+        "name": "Deer Island, Bali",
+        "price": 2190
     }
 ]
