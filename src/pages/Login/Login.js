@@ -55,10 +55,14 @@ const Login = () => {
                     <Form.Control ref={passwordRef} type="password" placeholder="Password" required />
                 </Form.Group>
                 <p className='my-2 '>New to Discover the World? <Link to='/signup' onClick={handleSignUp} className='text-danger text-decoration-none'>Sign Up</Link></p>
-                <Button variant="primary" type="submit">
+                <Button className='my-2' variant="primary" type="submit">
                     Sign In
                 </Button>
+                <p className='text-center'>
+                    Sign with 
+                </p>
             </Form>
+
         </div>
     );
 };
