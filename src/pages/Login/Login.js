@@ -49,7 +49,7 @@ const Login = () => {
         signInWithGoogle()
     }
     const handleGithub = () => {
-        signInWithGoogle()
+        signInWithGithub()
     }
 
     const [sendPasswordResetEmail] = useSendPasswordResetEmail(auth);
