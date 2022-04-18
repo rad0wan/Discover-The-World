@@ -5,6 +5,7 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { Link } from 'react-router-dom';
 import auth from '../../../firebase.init';
 import { SiYourtraveldottv } from 'react-icons/si';
+import { GoSignOut, GoSignIn } from 'react-icons/go';
 
 const Header = () => {
 
@@ -30,9 +31,9 @@ const Header = () => {
                         <Nav>
                             {user
                                 ?
-                                <button onClick={handleSignOut} className='btn btn-link text-decoration-none'>Sign out</button>
+                                <button onClick={handleSignOut} className='btn btn-link text-decoration-none'><GoSignOut size={30}></GoSignOut> Sign out</button>
                                 :
-                                <Nav.Link as={Link} to="/login">Login</Nav.Link>
+                                <Nav.Link as={Link} to="/login"><GoSignIn size={30}></GoSignIn> Sign In</Nav.Link>
                             }
                         </Nav>
                     </Navbar.Collapse>

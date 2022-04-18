@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
+import { FaArrowRight } from 'react-icons/fa';
 
 const Service = ({ service }) => {
     const navigate = useNavigate()
@@ -13,18 +14,18 @@ const Service = ({ service }) => {
 
     return (
         <Col>
-            <Card className='text-center'>
+            <Card className='text-center shadow-sm hover-shadow'>
                 <Card.Img variant="top" src={img} />
                 <Card.Body>
                     <Card.Title >{name}</Card.Title>
-                    <Card.Text style={{color:'gray'}}>
+                    <Card.Text style={{ color: 'gray' }}>
                         {details}
                     </Card.Text>
                     <Card.Text>
                         Price: <span style={{ color: 'orange', fontSize: '22px' }}>${price}</span>
                     </Card.Text>
                 </Card.Body>
-                <button onClick={handleCheckOut} className='btn btn-success w-50 mx-auto mb-3'>Check Out</button>
+                <button onClick={handleCheckOut} className='btn btn-success w-50 mx-auto mb-3 d-flex align-items-center justify-content-center'>Check Out<FaArrowRight className='ms-2' size={30}></FaArrowRight></button>
             </Card>
         </Col>
     );

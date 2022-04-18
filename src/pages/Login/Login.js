@@ -8,6 +8,7 @@ import { BsGithub } from 'react-icons/bs';
 import { createUserWithEmailAndPassword } from 'firebase/auth';
 import Loading from '../Shared/Loading/Loading';
 import { ToastContainer, toast } from 'react-toastify';
+import './Login.css'
 
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -74,7 +75,7 @@ const Login = () => {
     }
 
     return (
-        <div className='w-50 mx-auto'>
+        <div className='mx-auto login mb-5' >
             <h2 className='text-center text-primary my-4'>Please Sign In</h2>
             <Form onSubmit={handleSignIn} className=''>
                 <Form.Group className="mb-3" controlId="formBasicEmail">

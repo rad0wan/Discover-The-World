@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button, Form } from 'react-bootstrap';
 import { toast, ToastContainer } from 'react-toastify';
+import { BiCheckCircle } from 'react-icons/bi';
 
 const CheckOut = () => {
 
@@ -9,7 +10,7 @@ const CheckOut = () => {
         toast('Thank you for your CheckOut')
     }
     return (
-        <div className='w-50 mx-auto'>
+        <div className='mx-auto login mb-5'>
             <h2 className='text-center text-primary my-4'>Please Proceed Checkout</h2>
             <Form onSubmit={handleProceedCheckout} className=''>
                 <Form.Group className="mb-3" controlId="">
@@ -29,7 +30,7 @@ const CheckOut = () => {
                     <Form.Control type="text" placeholder="Your Number" required />
                 </Form.Group>
                 <Button className='my-2' variant="primary" type="submit">
-                    Proceed Checkout
+                    Proceed Checkout <BiCheckCircle size={30}></BiCheckCircle>
                 </Button>
             </Form>
             <div>
