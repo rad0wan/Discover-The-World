@@ -13,8 +13,8 @@ const Services = () => {
     }, [])
 
     return (
-        <div id='services' className='container'>
-            <h2 className='my-5 text-center '>Our Services</h2>
+        <div id='services' className='container mb-5'>
+            <h2 style={{color:'orange'}} className='my-5 text-center '>Our Services</h2>
             <div>
                 <Row xs={1} md={2} lg={3} className="g-4">
                     {
