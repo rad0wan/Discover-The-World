@@ -16,8 +16,8 @@ const Service = ({ service }) => {
             <Card className='text-center'>
                 <Card.Img variant="top" src={img} />
                 <Card.Body>
-                    <Card.Title>{name}</Card.Title>
-                    <Card.Text>
+                    <Card.Title >{name}</Card.Title>
+                    <Card.Text style={{color:'gray'}}>
                         {details}
                     </Card.Text>
                     <Card.Text>
